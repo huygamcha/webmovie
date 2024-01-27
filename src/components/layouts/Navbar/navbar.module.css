@@ -1,0 +1,31 @@
+.icon{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    font-size: 10px;    
+}
+.ul li{
+    padding: 10px 0px;
+    text-align: center;
+    color: #b7b7b7;
+}
+.li:hover{
+    animation: fadein 1s linear forwards;
+}
+@keyframes fadein{
+    0%{
+        color: #efac3f;
+        scale: 1.02;
+    }
+    50%{
+        color: #f1a832;
+        scale: 1.05;
+    }
+    100%{
+        color:#ffb43a;
+        scale: 1.08;
+    }
+}
+  

@@ -1,0 +1,11 @@
+.header{
+    position: fixed;
+    top: 0;
+    background-color: var(--background);
+    z-index: 99;
+    padding: 0 60px;
+}
+.home{
+    margin-top: 100px;
+    padding: 0 60px
+}

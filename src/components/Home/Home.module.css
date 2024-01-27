@@ -1,0 +1,17 @@
+.wrapper{
+    position: relative;
+}
+.infor{
+    position: absolute;
+    top: 50%;
+    color: var(--text);
+    left: 3%;
+    transform: translateY(-50%);
+}
+.infor p{
+    color: var(--primary);
+    padding: 10px 0;
+}
+.infor span{
+    margin-left: 20px;
+}

@@ -1,0 +1,35 @@
+.half_circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background: conic-gradient(
+      from 0deg,
+      rgb(34, 208, 122) 288deg,
+      rgb(30, 30, 42) 288deg 
+    ) !important; */
+  }
+  .half_circle::after {
+    /* z-index: 0; */
+    display: block;
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: conic-gradient(
+      from 0deg,
+      rgb(30, 30, 42) 180deg,
+      rgb(30, 30, 42) 0
+    );
+  }
+  .title{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

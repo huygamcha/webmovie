@@ -1,0 +1,12 @@
+import { create } from "zustand";
+
+interface Loved {
+  loved_movies: string[];
+  onchange: (newMovie: string) => void;
+}
+
+const useSearch = create<Loved>((set) => ({
+  loved_movies: [],
+  onchange: (newMovie) => set((state) => ({loved_movies: [...state.loved_movies, newMovie]})),
+}));
+export default useSearch;
